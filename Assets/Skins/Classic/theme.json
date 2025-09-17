@@ -1,0 +1,9 @@
+{
+  "primaryColor": "#FFB000",
+  "fontId": "default",
+  "sfxPackId": "classic",
+  "artAtlasId": "classic_atlas",
+  "prestigeFormula": { "A": 1.0, "B": 5000.0 },
+  "offlineCapHours": 12,
+  "startingBalances": { "soft": 10, "prestige": 0 }
+}

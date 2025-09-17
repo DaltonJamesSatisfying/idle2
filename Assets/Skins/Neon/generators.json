@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gen_drone",
+    "name": "Drone",
+    "iconId": "drone",
+    "currencyId": "soft",
+    "baseCost": 25,
+    "costCurve": { "type": "linear", "step": 10 },
+    "baseRatePerSec": 0.5,
+    "unlockReq": { "currencyId": "soft", "amount": 0 }
+  },
+  {
+    "id": "gen_reactor",
+    "name": "Reactor",
+    "iconId": "reactor",
+    "currencyId": "soft",
+    "baseCost": 250,
+    "costCurve": { "type": "polynomial", "a": 0.1, "b": 0.02 },
+    "baseRatePerSec": 3.5,
+    "unlockReq": { "generatorId": "gen_drone", "minLevel": 15 }
+  }
+]

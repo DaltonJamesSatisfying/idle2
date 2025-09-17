@@ -1,0 +1,17 @@
+{
+  "name": "IdleFramework.Tests",
+  "rootNamespace": "IdleFramework.Tests",
+  "references": [
+    "IdleFramework.Scripts"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "optionalUnityReferences": []
+}

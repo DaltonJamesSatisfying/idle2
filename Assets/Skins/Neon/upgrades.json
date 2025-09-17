@@ -1,0 +1,29 @@
+[
+  {
+    "id": "upg_drone_swarm",
+    "name": "Drone Swarm",
+    "desc": "Adds more drones",
+    "price": 180,
+    "iconId": "swarm",
+    "conditions": { "generatorId": "gen_drone", "minLevel": 12 },
+    "effect": { "type": "additive", "target": "gen_drone", "amountPerSec": 1.0 }
+  },
+  {
+    "id": "upg_reactor_shielding",
+    "name": "Reactor Shielding",
+    "desc": "Reactors work safer",
+    "price": 900,
+    "iconId": "shield",
+    "conditions": { "generatorId": "gen_reactor", "minLevel": 3 },
+    "effect": { "type": "multiplier", "target": "gen_reactor", "percent": 0.4 }
+  },
+  {
+    "id": "upg_energy_market",
+    "name": "Energy Market",
+    "desc": "Reduces generator costs",
+    "price": 1500,
+    "iconId": "market",
+    "conditions": { "currencyId": "soft", "minTotal": 1000 },
+    "effect": { "type": "costReduction", "target": "all", "percent": 0.1 }
+  }
+]
