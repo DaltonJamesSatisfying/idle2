@@ -1,0 +1,29 @@
+[
+  {
+    "id": "upg_hotter_ovens",
+    "name": "Hotter Ovens",
+    "desc": "Increase oven output",
+    "price": 100,
+    "iconId": "flame",
+    "conditions": { "generatorId": "gen_oven", "minLevel": 10 },
+    "effect": { "type": "multiplier", "target": "gen_oven", "percent": 0.25 }
+  },
+  {
+    "id": "upg_factory_efficiency",
+    "name": "Factory Efficiency",
+    "desc": "Factories run faster",
+    "price": 500,
+    "iconId": "gear",
+    "conditions": { "generatorId": "gen_factory", "minLevel": 5 },
+    "effect": { "type": "multiplier", "target": "gen_factory", "percent": 0.5 }
+  },
+  {
+    "id": "upg_universal_fans",
+    "name": "Universal Fans",
+    "desc": "All production boosted",
+    "price": 1200,
+    "iconId": "star",
+    "conditions": { "currencyId": "soft", "minTotal": 500 },
+    "effect": { "type": "multiplier", "target": "all", "percent": 0.15 }
+  }
+]

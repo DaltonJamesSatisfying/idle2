@@ -1,0 +1,4 @@
+[
+  { "id": "ach_first_buy", "name": "First Purchase", "desc": "Buy any generator once" },
+  { "id": "ach_factory_owner", "name": "Factory Owner", "desc": "Own 5 factories" }
+]

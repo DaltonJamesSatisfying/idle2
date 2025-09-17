@@ -1,0 +1,13 @@
+{
+  "name": "IdleFramework.Scripts",
+  "rootNamespace": "IdleFramework",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "optionalUnityReferences": []
+}

@@ -1,0 +1,9 @@
+{
+  "primaryColor": "#00FFC6",
+  "fontId": "digital",
+  "sfxPackId": "neon",
+  "artAtlasId": "neon_atlas",
+  "prestigeFormula": { "A": 1.2, "B": 6000.0 },
+  "offlineCapHours": 10,
+  "startingBalances": { "soft": 20, "prestige": 0 }
+}

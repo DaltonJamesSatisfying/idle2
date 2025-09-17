@@ -1,0 +1,4 @@
+[
+  { "id": "ach_first_launch", "name": "First Launch", "desc": "Deploy your first drone" },
+  { "id": "ach_reactor_master", "name": "Reactor Master", "desc": "Stabilize five reactors" }
+]

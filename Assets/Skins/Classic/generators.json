@@ -1,0 +1,22 @@
+[
+  {
+    "id": "gen_oven",
+    "name": "Oven",
+    "iconId": "oven",
+    "currencyId": "soft",
+    "baseCost": 15,
+    "costCurve": { "type": "geometric", "growth": 1.15 },
+    "baseRatePerSec": 0.2,
+    "unlockReq": { "currencyId": "soft", "amount": 0 }
+  },
+  {
+    "id": "gen_factory",
+    "name": "Factory",
+    "iconId": "factory",
+    "currencyId": "soft",
+    "baseCost": 100,
+    "costCurve": { "type": "geometric", "growth": 1.17 },
+    "baseRatePerSec": 2.0,
+    "unlockReq": { "generatorId": "gen_oven", "minLevel": 10 }
+  }
+]
